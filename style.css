@@ -1,0 +1,50 @@
+/* GOOGLE FONT */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap');
+
+
+body{
+    font-family: 'poppins', sans-serif;
+    background: linear-gradient(rgba(0, 0, 50, 0.3), rgba(0, 0, 50, 0.3)), url(./assests/read.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.mainheader{
+    border: 2px solid #decaf0;
+}
+
+.nav-link:hover{
+    background-color: #decaf0;
+    color: #1a0330 !important;
+    font-weight: bold;
+}
+#about img{
+                 background-position: 0 -210px;
+                    height: 528px;
+                    padding: 10px;
+                   display: block;
+                    margin: -200px 200px;
+                    background-repeat: no-repeat;
+}
+
+.btn:hover{   
+  
+    border: 2px solid #decaf0 !important;
+    font-weight: 700;
+    border-radius: 10px;
+    transform: scale(1.06);
+    transition: ease-in 1s;
+    
+}
+
+
+
+.card-img img:hover{
+    transform: scale(1.2);
+    transition: ease-in 1.5s;
+}
